@@ -6,7 +6,7 @@ local uv = vim.loop
 keymap.set({ "n", "x" }, ";", ":")
 --vimspector
 keymap.set("n","<leader>vR","<cmd>call vimspector#RunToCursor()<cr>", {silent = true, desc = "Run to Cursor"})
-keymap.set("n","<leader>vc","<cmd>call vimspector#Continue()<cr>", {silent = true, desc = "Continue"})
+keymap.set("n","<space>n","<cmd>call vimspector#Continue()<cr>", {silent = true, desc = "Continue"})
 keymap.set("n","<leader>vi","<cmd>call vimspector#StepInto()<cr>", {silent = true, desc = "Step Into"})
 keymap.set("n","<leader>vo","<cmd>call vimspector#StepOver()<cr>", {silent = true, desc = "Step Over"})
 keymap.set("n","<leader>vs","<cmd>call vimspector#Launch()<cr>", {silent = true, desc = "Start"})
