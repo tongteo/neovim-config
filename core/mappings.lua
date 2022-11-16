@@ -14,8 +14,10 @@ keymap.set("n","<leader>vt","<cmd>call vimspector#ToggleBreakpoint()<cr>", {sile
 keymap.set("n","<leader>vu","<cmd>call vimspector#StepOut()<cr>", {silent = true, desc = "Step Out"})
 keymap.set("n","<leader>vS","<cmd>call vimspector#Stop()<cr>", {silent = true, desc = "Stop"})
 keymap.set("n","<leader>vr","<cmd>call vimspector#Restart()<cr>", {silent = true, desc = "Restart"})
-keymap.set("n","<leader>vx","<cmd>VimspectorReset<cr> <cr>", {silent = true, desc = "Reset"})
+keymap.set("n","<leader>vx","<cmd>VimspectorReset<cr>", {silent = true, desc = "Reset"})
 
+-- NvimTree toogle
+keymap.set("n","<space>s","<cmd>NvimTreeToggle<cr>", {silent = true, desc = "NvimTreeToggle"})
 
 
 -- Turn the word under cursor to upper case
